@@ -1,4 +1,4 @@
-# Virtual Machines
+# Windows VM Lab
 
 Windows 上的 Hyper-V 与 QEMU 实验环境脚本，覆盖虚拟机创建、配置、控制台、Ubuntu guest 准备和 guest 硬件信息检查。
 
@@ -15,8 +15,8 @@ Windows 上的 Hyper-V 与 QEMU 实验环境脚本，覆盖虚拟机创建、配
 ## 开始前
 
 ```powershell
-git clone https://github.com/yangming-666/virtual-machines.git
-cd virtual-machines
+git clone https://github.com/yangming-666/windows-vm-lab.git
+cd windows-vm-lab
 ```
 
 1. 选择一种方案，阅读其 README 和对应 `vm.config.json`。
