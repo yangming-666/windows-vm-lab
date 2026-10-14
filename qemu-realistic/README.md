@@ -15,14 +15,14 @@ It is still a VM. Some low-level PCI, ACPI, timing, display, and hypervisor trai
 Open PowerShell as Administrator:
 
 ```powershell
-Set-Location 'D:\虚拟机\qemu-realistic'
+Set-Location '.\qemu-realistic'
 .\Enable-WHPX.ps1 -Restart
 ```
 
 After restart:
 
 ```powershell
-Set-Location 'D:\虚拟机\qemu-realistic'
+Set-Location '.\qemu-realistic'
 .\Setup-FullRealisticVM.ps1 -IsoPath 'D:\ISO\your-installer.iso' -PrintOnly
 ```
 

@@ -32,14 +32,14 @@ This folder contains a configurable Hyper-V VM setup.
 3. Open PowerShell as Administrator and run:
 
    ```powershell
-   Set-Location 'D:\虚拟机\hyperv'
+   Set-Location '.\hyperv'
    .\Enable-HyperV.ps1 -Restart
    ```
 
 4. After Windows restarts, open PowerShell as Administrator again and run:
 
    ```powershell
-   Set-Location 'D:\虚拟机\hyperv'
+   Set-Location '.\hyperv'
    .\New-ConfiguredVM.ps1
    ```
 
